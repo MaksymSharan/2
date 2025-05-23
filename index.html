@@ -33,17 +33,7 @@
 
 
 
-	<script>
-	document.addEventListener('contextmenu', event => event.preventDefault());
-	document.addEventListener('selectstart', event => event.preventDefault());
-	document.addEventListener('copy', event => {
-	event.preventDefault();
-	alert("Копіювання заборонено.");
-	});
-	</script>
-	<script>
-	document.addEventListener('dragstart', e => e.preventDefault());
-	</script>
+
 	
 
 
@@ -117,11 +107,7 @@ body{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-font-smoothing:antialiase
 
 			
 
-body {
-  user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
+
 
 
 
